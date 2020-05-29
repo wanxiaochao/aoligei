@@ -1,0 +1,15 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        -id: product_route
+        uri: http://localhost:8081
+        order: 1
+        predicates:
+          - Path=/product-service/**
+        filters:
+          - StripPrefix=1
