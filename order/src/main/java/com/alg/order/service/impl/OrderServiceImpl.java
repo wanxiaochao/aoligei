@@ -19,4 +19,9 @@ public class OrderServiceImpl implements OrderService {
         Order save = orderDao.save(order);
         return save;
     }
+
+    @Override
+    public Order findOrderDetails(Long id) {
+        return orderDao.findById(id).get();
+    }
 }

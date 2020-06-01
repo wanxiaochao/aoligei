@@ -26,6 +26,12 @@ public class OrderController {
     @Resource
     private FeignClientService feignClientService;
 
+
+    @GetMapping("/order-details/{id}")
+    public Order findOrderDetails(@PathVariable("id") Long id) {
+        return orderService.findOrderDetails(id);
+    }
+
     @GetMapping("/order/feign/{pid}")
     public Order order(@PathVariable("pid") Integer pid) {
 

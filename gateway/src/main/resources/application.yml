@@ -3,13 +3,60 @@ server:
 spring:
   application:
     name: gateway-service
+  zipkin:
+    base-url: http://127.0.0.1:9411/ #zipkin server的请求地址
+    discoveryClientEnabled: false #让nacos把它当成一个URL，而不要当做服务名
+    sleuth:
+      sampler:
+        probability: 1.0 #采样的百分比
   cloud:
     gateway:
-      routes:
-        -id: product_route
-        uri: http://localhost:8081
-        order: 1
-        predicates:
-          - Path=/product-service/**
-        filters:
-          - StripPrefix=1
+      routes: #直接不配置这个routes用服务名请求也可以访问~
+        #简单版本配置
+        - id: product_route #  -id 路由标识符，区别于其他 Route。
+          uri: http://localhost:8081   #路由指向的目的地 uri，即客户端请求最终被转发到的微服务
+          order: 1  #用于多个 Route 之间的排序，数值越小排序越靠前，匹配优先级越高。
+          predicates: #断言的作用是进行条件判断，只有断言都返回真，才会真正的执行路由
+            - Path=/product-service/**
+          filters: #过滤器用于修改请求和响应信息。
+            - StripPrefix=1
+          args:
+            retries: 3 #重试次数，默认值是 3 次。
+            #状态码配置（分段），符合某段状态码才会进行重试逻辑，默认值是 SERVER_ERROR，值是 5，也就是 5XX（5 开头的状态码），共有 5 个值，
+            #INFORMATIONAL(1), SUCCESSFUL(2), REDIRECTION(3), CLIENT_ERROR(4), SERVER_ERROR(5);
+            series: SERVER_ERROR
+        #增强版本nacos中获取服务
+        - id: order_route
+          uri: lb://order-service # lb指的是从nacos中按照名称获取微服务,并遵循负载均 衡策略
+          predicates:
+            - Custom=1,5 #自定义断言
+            - Path=/order-service/**
+          filters:
+            - StripPrefix=1
+            - SetStatus=2000 # 自带过滤器 修改返回状态
+            - Log=true,false #自定义局部过滤器 # 控制日志是否开启
+          args:
+            retries: 3
+            series: SERVER_ERROR
+      #跨域请求配置
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            exposedHeaders:
+              - content-type
+            allowedHeaders:
+              - content-type
+            allowCredentials: true
+            allowedMethods:
+              - GET
+              - OPTIONS
+              - PUT
+              - DELETE
+              - POST
+      discovery:
+        locator:
+          enabled: true # 让gateway可以发现nacos中的微服务
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="" />
+    <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/conf/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/conf/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/exception/ErrorHandlerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/exception/JsonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/filter/LogGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/predicate/CustomRoutePredicateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +27,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -21,11 +48,15 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="1.8" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx1050m" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1cZdx84ucW8WaSmRtPJ1Ny0WC3w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -39,24 +70,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/order/src/main/java/com/alg/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/src/main/java/com/alg/gateway" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\self_project\aoligei\gateway\src\main\java\com\alg\gateway" />
       <recent name="G:\self_project\aoligei\order\src\main\java\com\alg\order" />
       <recent name="G:\self_project\aoligei\order\src\main\resources" />
       <recent name="G:\self_project\aoligei\product\src\main\java\com\alg\product" />
       <recent name="G:\self_project\aoligei\product\src\main\java\com\alg" />
-      <recent name="G:\self_project\aoligei\product\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GatewayApplication">
@@ -99,7 +130,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590740292715</updated>
-      <workItem from="1590740295079" duration="4119000" />
+      <workItem from="1590740295079" duration="4628000" />
+      <workItem from="1590974267388" duration="11337000" />
+      <workItem from="1590989994560" duration="13065000" />
     </task>
     <servers />
   </component>
@@ -107,58 +140,74 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1590996865562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590996865562" />
+    <state width="471" height="466" key="DebuggerActiveHint" timestamp="1590988680716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="471" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1590988680716" />
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1590740832798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590740832798" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1590744412796">
+    <state width="1877" height="423" key="GridCell.Tab.0.bottom" timestamp="1591003140497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590744412796" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1590744412796">
+    <state width="1877" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140497" />
+    <state width="1877" height="423" key="GridCell.Tab.0.center" timestamp="1591003140497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590744412796" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1590744412796">
+    <state width="1877" height="423" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140497" />
+    <state width="1877" height="423" key="GridCell.Tab.0.left" timestamp="1591003140497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590744412796" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1590744412796">
+    <state width="1877" height="423" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140497" />
+    <state width="1877" height="423" key="GridCell.Tab.0.right" timestamp="1591003140497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590744412796" />
-    <state width="1877" height="377" key="GridCell.Tab.1.bottom" timestamp="1590744400759">
+    <state width="1877" height="423" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140497" />
+    <state width="1877" height="423" key="GridCell.Tab.1.bottom" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400759" />
-    <state width="1877" height="377" key="GridCell.Tab.1.center" timestamp="1590744400758">
+    <state width="1877" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.1.center" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400758" />
-    <state width="1877" height="377" key="GridCell.Tab.1.left" timestamp="1590744400758">
+    <state width="1877" height="423" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.1.left" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400758" />
-    <state width="1877" height="377" key="GridCell.Tab.1.right" timestamp="1590744400758">
+    <state width="1877" height="423" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.1.right" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400758" />
-    <state width="1877" height="377" key="GridCell.Tab.2.bottom" timestamp="1590744400759">
+    <state width="1877" height="423" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.2.bottom" timestamp="1591003140298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400759" />
-    <state width="1877" height="377" key="GridCell.Tab.2.center" timestamp="1590744400759">
+    <state width="1877" height="423" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140298" />
+    <state width="1877" height="423" key="GridCell.Tab.2.center" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400759" />
-    <state width="1877" height="377" key="GridCell.Tab.2.left" timestamp="1590744400759">
+    <state width="1877" height="423" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.2.left" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400759" />
-    <state width="1877" height="377" key="GridCell.Tab.2.right" timestamp="1590744400759">
+    <state width="1877" height="423" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state width="1877" height="423" key="GridCell.Tab.2.right" timestamp="1591003140297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590744400759" />
+    <state width="1877" height="423" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591003140297" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1590991094433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590991094433" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1591002434513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591002434513" />
     <state x="334" y="180" key="new project wizard" timestamp="1590742768313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
