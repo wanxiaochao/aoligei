@@ -1,0 +1,43 @@
+2020-06-02  14:48:15.025 [main] INFO  com.alg.order.OrderApplication - No active profile set, falling back to default profiles: default
+2020-06-02  14:48:15.552 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-02  14:48:15.606 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 1 JPA repository interfaces.
+2020-06-02  14:48:15.834 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=7d9a07e9-cc88-30ed-ad8a-f2d2937b92b3
+2020-06-02  14:48:16.133 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02  14:48:16.314 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-02  14:48:16.577 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2020-06-02  14:48:16.585 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2020-06-02  14:48:16.585 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-02  14:48:16.585 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-02  14:48:16.708 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-02  14:48:16.708 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1668 ms
+2020-06-02  14:48:16.947 [main] WARN  org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@21516c88}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-02  14:48:17.096 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-02  14:48:18.300 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-02  14:48:18.415 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-02  14:48:18.458 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-02  14:48:18.583 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-02  14:48:18.681 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-02  14:48:19.247 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-02  14:48:19.254 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02  14:48:19.957 [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-02  14:48:20.140 [main] ERROR org.apache.rocketmq.spring.support.RocketMQUtil - system trace hook init failed ,maybe can't send msg trace data
+2020-06-02  14:48:20.477 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-02  14:48:20.477 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-02  14:48:20.481 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-02  14:48:20.481 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-02  14:48:20.683 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-02  14:48:20.733 [main] INFO  com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2020-06-02  14:48:20.835 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-02  14:48:21.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2020-06-02  14:48:21.351 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2020-06-02  14:48:21.457 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP order-service 192.168.92.1:8091 register finished
+2020-06-02  14:48:21.459 [main] INFO  com.alg.order.OrderApplication - Started OrderApplication in 8.108 seconds (JVM running for 8.824)
+2020-06-02  14:53:54.367 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-02  14:53:54.368 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-06-02  14:53:54.372 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-06-02  14:53:54.373 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-02  14:53:54.383 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2020-06-02  14:53:54.384 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2020-06-02  14:53:54.385 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.184.1:10911] result: true
+2020-06-02  14:53:54.386 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-02  14:53:54.395 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

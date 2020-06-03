@@ -1,0 +1,5 @@
+2020-06-02  14:48:16.947 [main] WARN  org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@21516c88}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-02  14:48:19.957 [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-02  14:48:20.140 [main] ERROR org.apache.rocketmq.spring.support.RocketMQUtil - system trace hook init failed ,maybe can't send msg trace data
+2020-06-02  14:48:20.477 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-02  14:48:20.481 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

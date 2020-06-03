@@ -6,12 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="product" />
+        <module name="user" />
         <module name="gateway" />
+        <module name="starter" />
+        <module name="product" />
+        <module name="common" />
         <module name="order" />
+        <module name="seata-spring-boot-starter" />
+        <module name="seata" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seata" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -19,6 +26,10 @@
       <module name="gateway" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />
+      <module name="seata" options="-parameters" />
+      <module name="seata-spring-boot-starter" options="-parameters" />
+      <module name="starter" options="-parameters" />
+      <module name="user" options="-parameters" />
     </option>
   </component>
 </project>

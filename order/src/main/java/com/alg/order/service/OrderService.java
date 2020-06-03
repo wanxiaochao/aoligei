@@ -9,4 +9,6 @@ public interface OrderService {
 
     Order findOrderDetails(Long id);
 
+    Order createOrder(Integer pid);
+
 }

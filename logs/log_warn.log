@@ -1,0 +1,142 @@
+2020-06-03 09:25:44.311 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@7ed8b44}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+2020-06-03 09:25:48.434 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 09:25:48.631 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:25:48.653 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:25:58.105 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@7ed8b44}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:255)
+ zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-03 09:25:58.106 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-03 09:28:06.698 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@1a345298}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 09:28:09.748 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 09:28:10.029 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:28:10.033 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:55:33.009 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@12f51a65}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 09:55:36.071 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 09:55:36.293 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:55:36.297 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 09:59:59.650 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@12f51a65}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-06-03 09:59:59.654 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@12f51a65}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://127.0.0.1:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1536)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.springframework.http.client.SimpleClientHttpResponse.getRawStatusCode(SimpleClientHttpResponse.java:55)
+	at org.springframework.web.client.DefaultResponseErrorHandler.hasError(DefaultResponseErrorHandler.java:61)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:770)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:740)
+	... 9 common frames omitted
+2020-06-03 10:10:11.753 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@260d48f5}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 10:10:14.973 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 10:10:15.219 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 10:10:15.223 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 10:17:34.328 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@3b0ed98a}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 10:17:37.285 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 10:17:37.512 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 10:17:37.516 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 10:41:25.559 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@38a96593}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 10:41:28.768 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 10:41:29.010 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 10:41:29.014 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-03 13:30:45.249 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service] & group[DEFAULT_GROUP]
+2020-06-03 13:30:45.251 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service.properties] & group[DEFAULT_GROUP]
+2020-06-03 13:30:45.253 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service-dev.properties] & group[DEFAULT_GROUP]
+2020-06-03 13:30:48.094 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@1131aead}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 13:30:49.034 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$JpaInvokerConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alg/order/config/DataSourceProxyConfig.class]: Initialization of bean failed; nested exception is io.seata.common.exception.ShouldNeverHappenException: Auto proxy of DataSource can't be enabled as you've created a DataSourceProxy bean.Please consider removing DataSourceProxy bean or disabling auto proxy of DataSource.
+2020-06-03 13:30:49.080 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@1131aead}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-06-03 13:30:49.083 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@1131aead}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Dropped 0 spans due to BadRequest(400 Bad Request: [Empty JSON_V2 message])
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:112)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:782)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:740)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.lang.Thread.run(Thread.java:745)
+2020-06-03 13:34:54.191 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service] & group[DEFAULT_GROUP]
+2020-06-03 13:34:54.193 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service.properties] & group[DEFAULT_GROUP]
+2020-06-03 13:34:54.195 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service-dev.properties] & group[DEFAULT_GROUP]
+2020-06-03 13:34:57.068 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@cf08c97}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 13:34:57.781 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$JpaInvokerConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alg/order/config/DataSourceProxyConfig.class]: Initialization of bean failed; nested exception is io.seata.common.exception.ShouldNeverHappenException: Auto proxy of DataSource can't be enabled as you've created a DataSourceProxy bean.Please consider removing DataSourceProxy bean or disabling auto proxy of DataSource.
+2020-06-03 13:34:58.053 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@cf08c97}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-06-03 13:34:58.056 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@cf08c97}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Dropped 0 spans due to BadRequest(400 Bad Request: [Empty JSON_V2 message])
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:112)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:782)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:740)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.lang.Thread.run(Thread.java:745)
+2020-06-03 14:18:05.963 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service] & group[DEFAULT_GROUP]
+2020-06-03 14:18:05.975 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service.properties] & group[DEFAULT_GROUP]
+2020-06-03 14:18:05.977 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order-service-dev.properties] & group[DEFAULT_GROUP]
+2020-06-03 14:18:11.695 [main] WARN  o.s.cloud.sleuth.zipkin2.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@4e2824b1}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-06-03 14:18:12.821 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceProxy' defined in class path resource [com/alg/seataspringbootstarter/config/DataSourceProxyConfig.class]: Initialization of bean failed; nested exception is io.seata.common.exception.ShouldNeverHappenException: Auto proxy of DataSource can't be enabled as you've created a DataSourceProxy bean.Please consider removing DataSourceProxy bean or disabling auto proxy of DataSource.
+2020-06-03 14:18:13.641 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@4e2824b1}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-06-03 14:18:13.646 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@4e2824b1}] WARN  z.reporter.AsyncReporter$BoundedAsyncReporter - Dropped 0 spans due to BadRequest(400 Bad Request: [Empty JSON_V2 message])
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:112)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:782)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:740)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.lang.Thread.run(Thread.java:745)
