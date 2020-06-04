@@ -34,16 +34,11 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-        namespace: public
-        group: SEATA_GROUP
     sentinel:
       transport:
         dashboard: localhost:7070 # 指定控制台服务的地址
         port: 9999 #跟控制台交流的端口,随意指定一个未使用的端口即可
       eager: true
-    alibaba:
-      seata:
-        tx-service-group: ${spring.application.name}
 rocketmq:
   name-server: localhost:9876 #rocketMQ服务的地址
   producer:

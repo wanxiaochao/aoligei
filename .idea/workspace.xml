@@ -2,61 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/error/log-error-2020-06-02.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log_info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log_warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/logtest/error.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/logtest/output.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/logtest/sync.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/nacos/error.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/nacos/output.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/nacos/sync.2020-06-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn/log-warn-2020-06-02.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/dao/TxLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/entity/TxLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/OrderServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImplTestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/utils/RocketMQSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/ registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/alg/order/TestReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/alg/order/TestSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/seata-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/seata-spring-boot-starter/src/main/java/com/alg/seataspringbootstarter/config/DataSourceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/seata-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/rocketmq/SmSTxService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/rocketmq/SmsDelayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/rocketmq/SmsOrderMsgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/rocketmq/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/alg/user/sentinel/FilePersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/test/java/com/alg/user/UserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error/log-error-2020-06-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/UserApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/test/java/com/alg/userapi/UserApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-interface/src/main/java/com/alg/userinterface/UserInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-interface/src/main/java/com/alg/userinterface/service/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-interface/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/UserProvideApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/provide/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/test/java/com/alg/userprovide/UserProvideApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/OrderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/FeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/FeignClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/alg/order/OrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/test/java/com/alg/order/OrderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/alg/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/alg/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/alg/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/alg/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/alg/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/alg/product/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +43,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -140,7 +112,7 @@
       <recent name="G:\self_project\aoligei\order\src\main\java\com\alg\order" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="TestReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alg.order.TestReceiver" />
       <module name="order" />
@@ -209,9 +181,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.userapi.UserApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDubboInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-dubbo-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.userdubbointerface.UserDubboInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.userinterface.UserInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.userprovide.UserProvideApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,6 +238,8 @@
       <workItem from="1590989994560" duration="13318000" />
       <workItem from="1591057714625" duration="21938000" />
       <workItem from="1591144776788" duration="17304000" />
+      <workItem from="1591173675166" duration="596000" />
+      <workItem from="1591230640252" duration="11032000" />
     </task>
     <servers />
   </component>
@@ -248,10 +250,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1591160760981">
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1591238024576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591160760981" />
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591238024576" />
     <state width="471" height="466" key="DebuggerActiveHint" timestamp="1590988680716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,54 +262,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591066373820" />
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1591165080923">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1591248233740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591165080923" />
-    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1591165080923">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233740" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1591248233740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591165080923" />
-    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1591165080923">
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233740" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1591248233740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591165080923" />
-    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1591165080923">
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233740" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1591248233740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591165080923" />
-    <state width="1877" height="165" key="GridCell.Tab.1.bottom" timestamp="1591165079787">
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233740" />
+    <state width="1877" height="171" key="GridCell.Tab.1.bottom" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079787" />
-    <state width="1877" height="165" key="GridCell.Tab.1.center" timestamp="1591165079786">
+    <state width="1877" height="171" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.1.center" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079786" />
-    <state width="1877" height="165" key="GridCell.Tab.1.left" timestamp="1591165079786">
+    <state width="1877" height="171" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.1.left" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079786" />
-    <state width="1877" height="165" key="GridCell.Tab.1.right" timestamp="1591165079786">
+    <state width="1877" height="171" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.1.right" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079786" />
-    <state width="1877" height="165" key="GridCell.Tab.2.bottom" timestamp="1591165079787">
+    <state width="1877" height="171" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.2.bottom" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079787" />
-    <state width="1877" height="165" key="GridCell.Tab.2.center" timestamp="1591165079787">
+    <state width="1877" height="171" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.2.center" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079787" />
-    <state width="1877" height="165" key="GridCell.Tab.2.left" timestamp="1591165079787">
+    <state width="1877" height="171" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.2.left" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079787" />
-    <state width="1877" height="165" key="GridCell.Tab.2.right" timestamp="1591165079787">
+    <state width="1877" height="171" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
+    <state width="1877" height="171" key="GridCell.Tab.2.right" timestamp="1591248233593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591165079787" />
+    <state width="1877" height="171" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591248233593" />
     <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1591083938993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,14 +322,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="360" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1591151868211" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1591083110983">
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1591243322449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591083110983" />
-    <state x="334" y="180" key="new project wizard" timestamp="1591163605352">
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591243322449" />
+    <state x="334" y="180" key="new project wizard" timestamp="1591237789839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591163605352" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591237789839" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591076688143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

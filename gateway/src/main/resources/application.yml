@@ -38,6 +38,12 @@ spring:
           args:
             retries: 3
             series: SERVER_ERROR
+        - id: user-dubbo-route
+          uri: lb://user-dubbo-api-service
+          predicates:
+            - Path=/user-dubbo-api-service/**
+          filters: #过滤器用于修改请求和响应信息。
+            - StripPrefix=1
       #跨域请求配置
       globalcors:
         corsConfigurations:

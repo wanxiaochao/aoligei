@@ -119,7 +119,7 @@ public class OrderController {
 
     }
 
-    @RequestMapping("/order/prod/{pid}")
+    @RequestMapping("/order/s/prod/{pid}")
     public Order orderSeata(@PathVariable("pid") Integer pid) {
         System.out.println("接收到{}号商品的下单请求,接下来调用商品微服务查询此商品信息"+ pid);
         return orderService.createOrder(pid);

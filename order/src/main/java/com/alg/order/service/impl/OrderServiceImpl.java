@@ -7,7 +7,6 @@ import com.alg.order.dao.OrderDao;
 import com.alg.order.service.FeignClientService;
 import com.alg.order.service.OrderService;
 import com.alibaba.fastjson.JSON;
-import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -32,7 +31,6 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    @GlobalTransactional
     public Order createOrder(Integer pid) {
         Product product = feignClientService.findById(pid);
         System.out.println("查询到{}号商品的信息,内容是:{}" + pid + JSON.toJSONString(product));
@@ -45,6 +43,7 @@ public class OrderServiceImpl implements OrderService {
         order.setNumber(1);
         orderDao.save(order);
         System.out.println("创建订单成功,订单信息为{}"+JSON.toJSONString(order));
+        feignClientService.reduceInventory(pid,1);
         return null;
     }
 }

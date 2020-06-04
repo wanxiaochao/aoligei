@@ -26,7 +26,6 @@ public class ProductServiceImpl implements ProductService {
         if (product.getStock() < num) {
             throw new RuntimeException("库存不足");
         }
-        int i = 1 / 0;
         productDao.save(product);
     }
 }

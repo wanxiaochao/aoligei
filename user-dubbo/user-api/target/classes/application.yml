@@ -1,0 +1,21 @@
+server:
+  port: 8502
+spring:
+  application:
+    name: user-dubbo-api-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  main:
+    allow-bean-definition-overriding: true
+  autoconfigure:
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: user-dubbo-provide-service

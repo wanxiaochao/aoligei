@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/user/pom.xml" />
         <option value="$PROJECT_DIR$/starter/pom.xml" />
         <option value="$PROJECT_DIR$/starter/seata-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/user-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/user-dubbo/user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/user-dubbo/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-dubbo/user-provide/pom.xml" />
       </list>
     </option>
   </component>
