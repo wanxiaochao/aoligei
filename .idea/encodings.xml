@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqconsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java" charset="UTF-8" />
@@ -10,7 +11,6 @@
     <file url="file://$PROJECT_DIR$/user-dubbo/user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-dubbo/user-interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-dubbo/user-provide/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/user/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

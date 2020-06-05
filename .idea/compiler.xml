@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mqconsumer" />
         <module name="user-provide" />
         <module name="gateway" />
         <module name="product" />
         <module name="starter" />
-        <module name="user" />
         <module name="order" />
         <module name="seata" />
         <module name="seata-spring-boot-starter" />
@@ -34,13 +34,13 @@
       <module name="auth" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="mqconsumer" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />
       <module name="redis-spring-boot-starter" options="-parameters" />
       <module name="seata" options="-parameters" />
       <module name="seata-spring-boot-starter" options="-parameters" />
       <module name="starter" options="-parameters" />
-      <module name="user" options="-parameters" />
       <module name="user-api" options="-parameters" />
       <module name="user-dubbo" options="-parameters" />
       <module name="user-dubbo-api" options="-parameters" />

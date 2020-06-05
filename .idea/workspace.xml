@@ -232,7 +232,7 @@
       </method>
     </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user" />
+      <module name="mqconsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
