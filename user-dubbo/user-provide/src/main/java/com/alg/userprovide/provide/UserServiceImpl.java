@@ -17,4 +17,9 @@ public class UserServiceImpl implements UserInterface {
     public User findById(Integer id) {
         return userDao.findById(id).get();
     }
+
+    @Override
+    public User findByUsername(String username) {
+        return userDao.findUserByUsername(username);
+    }
 }

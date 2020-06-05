@@ -50,4 +50,5 @@ feign:
     enabled: true
 ribbon:
   eager-load:
-    enabled: true
+    enabled: true #开启 Ribbon 的饥饿加载模式。
+    #clients:指定需要饥饿加载的服务名，也就是你需要调用的服务，若有多个则用逗号隔开。

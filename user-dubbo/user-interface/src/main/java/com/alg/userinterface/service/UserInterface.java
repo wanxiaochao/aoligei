@@ -6,4 +6,5 @@ public interface UserInterface {
 
     User findById(Integer id);
 
+    User findByUsername(String username);
 }

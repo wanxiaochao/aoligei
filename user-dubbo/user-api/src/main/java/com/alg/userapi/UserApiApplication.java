@@ -11,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @ServletComponentScan(basePackages = {"com.alg"})
 @ComponentScan(basePackages = {"com.alg"})
+//对外开启暴露获取token的API接口
 public class UserApiApplication {
 
     public static void main(String[] args) {

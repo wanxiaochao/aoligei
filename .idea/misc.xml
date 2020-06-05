@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/user-dubbo/user-interface/pom.xml" />
         <option value="$PROJECT_DIR$/user-dubbo/user-api/pom.xml" />
         <option value="$PROJECT_DIR$/user-dubbo/user-provide/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/redis-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>

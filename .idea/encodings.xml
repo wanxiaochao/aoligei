@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/seata-spring-boot-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-dubbo/user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-dubbo/user-interface/src/main/java" charset="UTF-8" />
