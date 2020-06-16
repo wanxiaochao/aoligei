@@ -2,45 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/alg/common/utils/RetUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/config/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/config/FeignTokenRelayIntercept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/config/RibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/config/RibbonTokenRelayInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/alg/product/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/config/CacheAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/config/RedisAutoConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/constant/RedisToolsConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/exception/LockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/lock/DistributedLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/lock/RedissonDistributedLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/properties/CacheManagerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/java/com/alg/redisspringbootstarter/template/RedisRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/redis-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/alg/common/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/alg/common/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/alg/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/alg/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/UserApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/UserApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-api/src/main/java/com/alg/userapi/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-api/target/classes/com/alg/userapi/UserApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-api/target/classes/com/alg/userapi/UserApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-api/target/classes/com/alg/userapi/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-api/target/classes/com/alg/userapi/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-interface/src/main/java/com/alg/userinterface/service/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-interface/src/main/java/com/alg/userinterface/service/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-interface/target/classes/com/alg/userinterface/service/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-interface/target/classes/com/alg/userinterface/service/UserInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/provide/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/java/com/alg/userprovide/provide/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/src/test/java/com/alg/userprovide/UserProvideApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/test/java/com/alg/userprovide/UserProvideApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/com/alg/userprovide/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/com/alg/userprovide/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/com/alg/userprovide/provide/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/com/alg/userprovide/provide/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/target/test-classes/com/alg/userprovide/UserProvideApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/target/test-classes/com/alg/userprovide/UserProvideApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/EsLearnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/config/ElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es_learn/src/test/java/com/aoligei/es_learn/EsLearnApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +75,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -125,7 +96,7 @@
       <recent name="G:\self_project\aoligei\order\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunManager" selected="JUnit.EsLearnApplicationTests.contextLoads">
     <configuration name="TestReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alg.order.TestReceiver" />
       <module name="order" />
@@ -148,6 +119,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsLearnApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aoligei.es_learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aoligei.es_learn" />
+      <option name="MAIN_CLASS_NAME" value="com.aoligei.es_learn.EsLearnApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,6 +165,13 @@
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="es_learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoligei.es_learn.EsLearnApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EsLearnApplicationTests.contextLoads" />
         <item itemvalue="JUnit.UserProvideApplicationTests.contextLoads" />
         <item itemvalue="Application.TestReceiver" />
         <item itemvalue="Application.TestSend" />
@@ -284,7 +279,10 @@
       <workItem from="1591144776788" duration="17304000" />
       <workItem from="1591173675166" duration="596000" />
       <workItem from="1591230640252" duration="20890000" />
-      <workItem from="1591317186252" duration="14625000" />
+      <workItem from="1591317186252" duration="15564000" />
+      <workItem from="1591576371784" duration="4091000" />
+      <workItem from="1591665812202" duration="1884000" />
+      <workItem from="1592278910521" duration="2202000" />
     </task>
     <servers />
   </component>
@@ -315,62 +313,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591324898758" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1591345951292">
+    <state width="1877" height="489" key="GridCell.Tab.0.bottom" timestamp="1592280521534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1591345951292">
+    <state width="1877" height="489" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
+    <state width="1877" height="489" key="GridCell.Tab.0.center" timestamp="1592280521534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1591345951292">
+    <state width="1877" height="489" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
+    <state width="1877" height="489" key="GridCell.Tab.0.left" timestamp="1592280521534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1591345951292">
+    <state width="1877" height="489" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
+    <state width="1877" height="489" key="GridCell.Tab.0.right" timestamp="1592280521534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1591345951292">
+    <state width="1877" height="489" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.1.center" timestamp="1591345951292">
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592279864960" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.1.left" timestamp="1591345951292">
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592279864960" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.1.right" timestamp="1591345951292">
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592279864960" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.2.bottom" timestamp="1591345951292">
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592279864960" />
+    <state width="1877" height="295" key="GridCell.Tab.2.bottom" timestamp="1591349524938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.2.center" timestamp="1591345951292">
+    <state width="1877" height="295" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
+    <state width="1877" height="295" key="GridCell.Tab.2.center" timestamp="1591349524938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.2.left" timestamp="1591345951292">
+    <state width="1877" height="295" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
+    <state width="1877" height="295" key="GridCell.Tab.2.left" timestamp="1591349524938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
-    <state width="1877" height="295" key="GridCell.Tab.2.right" timestamp="1591345951292">
+    <state width="1877" height="295" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
+    <state width="1877" height="295" key="GridCell.Tab.2.right" timestamp="1591349524938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591345951292" />
+    <state width="1877" height="295" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
     <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1591346134206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591346134206" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1591347160318">
+    <state x="526" y="293" key="SettingsEditor" timestamp="1592280391042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591347160318" />
+    <state x="526" y="293" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592280391042" />
     <state width="510" height="360" key="documentation.popup.size" timestamp="1591151868211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,10 +377,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591344228354" />
-    <state x="334" y="180" key="new project wizard" timestamp="1591345494689">
+    <state x="504" y="165" key="new project wizard" timestamp="1592278993884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591345494689" />
+    <state x="504" y="165" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592278993884" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591076688143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
