@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/DynamicProxyLearnApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/CglibDynamicProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/MyMethodInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/StaticProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/StudentsProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/UserManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/test/java/com/aoligei/dynamic_proxy_learn/DynamicProxyLearnApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +298,7 @@
       <workItem from="1592278910521" duration="2202000" />
       <workItem from="1592452307598" duration="18000" />
       <workItem from="1592459806095" duration="689000" />
-      <workItem from="1592531550576" duration="2229000" />
+      <workItem from="1592531550576" duration="5810000" />
     </task>
     <servers />
   </component>
@@ -410,10 +393,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="360" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1591151868211" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1591344228354">
+    <state x="662" y="252" width="686" height="536" key="find.popup" timestamp="1592548849109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591344228354" />
+    <state x="662" y="252" width="686" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592548849109" />
     <state x="504" y="165" key="new project wizard" timestamp="1592531672351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
