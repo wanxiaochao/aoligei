@@ -14,13 +14,14 @@
         <module name="product" />
         <module name="starter" />
         <module name="order" />
+        <module name="dynamic_proxy_learn" />
         <module name="seata" />
-        <module name="common" />
+        <module name="seata-spring-boot-starter" />
         <module name="user-dubbo" />
         <module name="user-interface" />
         <module name="redis-spring-boot-starter" />
         <module name="user-api" />
-        <module name="seata-spring-boot-starter" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="dynamic_proxy_learn" options="-parameters" />
       <module name="es_learn" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="mqconsumer" options="-parameters" />

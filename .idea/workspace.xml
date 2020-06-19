@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es_learn/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/EsLearnApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/config/ElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/src/main/java/com/aoligei/es_learn/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es_learn/src/test/java/com/aoligei/es_learn/EsLearnApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/DynamicProxyLearnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/CglibDynamicProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/cglib/MyMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/demo/StudentsProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/JDKDynamicProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/java/com/aoligei/dynamic_proxy_learn/jdk/UserManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_proxy_learn/src/test/java/com/aoligei/dynamic_proxy_learn/DynamicProxyLearnApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +105,13 @@
       <recent name="G:\self_project\aoligei\order\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EsLearnApplicationTests.contextLoads">
-    <configuration name="TestReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alg.order.TestReceiver" />
-      <module name="order" />
+  <component name="RunManager" selected="Application.CglibDynamicProxyTest">
+    <configuration name="CglibDynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.cglib.CglibDynamicProxyTest" />
+      <module name="dynamic_proxy_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alg.order.utils.*" />
+          <option name="PATTERN" value="com.aoligei.dynamic_proxy_learn.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alg.order.TestSend" />
-      <module name="order" />
+    <configuration name="JDKDynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.jdk.JDKDynamicProxyTest" />
+      <module name="dynamic_proxy_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alg.order.utils.*" />
+          <option name="PATTERN" value="com.aoligei.dynamic_proxy_learn.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.demo.StaticProxyTest" />
+      <module name="dynamic_proxy_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aoligei.dynamic_proxy_learn.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +187,13 @@
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alg.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dynamic_proxy_learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoligei.dynamic_proxy_learn.DynamicProxyLearnApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,10 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CglibDynamicProxyTest" />
+        <item itemvalue="Application.JDKDynamicProxyTest" />
+        <item itemvalue="Application.StaticProxyTest" />
         <item itemvalue="JUnit.EsLearnApplicationTests.contextLoads" />
         <item itemvalue="JUnit.UserProvideApplicationTests.contextLoads" />
-        <item itemvalue="Application.TestReceiver" />
-        <item itemvalue="Application.TestSend" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +313,9 @@
       <workItem from="1591576371784" duration="4091000" />
       <workItem from="1591665812202" duration="1884000" />
       <workItem from="1592278910521" duration="2202000" />
+      <workItem from="1592452307598" duration="18000" />
+      <workItem from="1592459806095" duration="689000" />
+      <workItem from="1592531550576" duration="2229000" />
     </task>
     <servers />
   </component>
@@ -297,10 +330,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1591346936664" />
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1591347711606">
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1592533335493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591347711606" />
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592533335493" />
+    <state x="881" y="434" width="587" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592533773648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="881" y="434" width="587" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592533773648" />
     <state x="474" y="97" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591255172848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,22 +350,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591324898758" />
-    <state width="1877" height="489" key="GridCell.Tab.0.bottom" timestamp="1592280521534">
+    <state width="1106" height="486" key="GridCell.Tab.0.bottom" timestamp="1592533641680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="489" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
-    <state width="1877" height="489" key="GridCell.Tab.0.center" timestamp="1592280521534">
+    <state width="1106" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592533641680" />
+    <state width="1106" height="486" key="GridCell.Tab.0.center" timestamp="1592533641680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="489" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
-    <state width="1877" height="489" key="GridCell.Tab.0.left" timestamp="1592280521534">
+    <state width="1106" height="486" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592533641680" />
+    <state width="1106" height="486" key="GridCell.Tab.0.left" timestamp="1592533641680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="489" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
-    <state width="1877" height="489" key="GridCell.Tab.0.right" timestamp="1592280521534">
+    <state width="1106" height="486" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592533641680" />
+    <state width="1106" height="486" key="GridCell.Tab.0.right" timestamp="1592533641680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="489" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592280521534" />
+    <state width="1106" height="486" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592533641680" />
     <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -361,10 +398,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
-    <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1591346134206">
+    <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1592531710999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="602" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591346134206" />
+    <state x="602" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592531710999" />
     <state x="526" y="293" key="SettingsEditor" timestamp="1592280391042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -377,10 +414,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591344228354" />
-    <state x="504" y="165" key="new project wizard" timestamp="1592278993884">
+    <state x="504" y="165" key="new project wizard" timestamp="1592531672351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="165" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592278993884" />
+    <state x="504" y="165" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592531672351" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591076688143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
