@@ -1,33 +1,33 @@
 server:
   port: 8501
-dubbo:
-  scan:
-    base-packages: com.alg.userprovide.provide #指定 Dubbo 服务实现类的扫描基准包
-  protocol:
-    name: dubbo #Dubbo服务暴露的协议配置，其中子属性name为协议名称，port为协议端口（-1 表示自增端口，从 20880 开始）
-    port: -1
-  registry:
-    address: spring-cloud://localhost #Dubbo 服务注册中心配置，其中子属性address 的值 "spring-cloud://192.168.44.129"，说明挂载到 Spring Cloud 注册中心
+#dubbo:
+#  scan:
+#    base-packages: com.alg.userprovide.provide #指定 Dubbo 服务实现类的扫描基准包
+#  protocol:
+#    name: dubbo #Dubbo服务暴露的协议配置，其中子属性name为协议名称，port为协议端口（-1 表示自增端口，从 20880 开始）
+#    port: -1
+#  registry:
+#    address: spring-cloud://localhost #Dubbo 服务注册中心配置，其中子属性address 的值 "spring-cloud://192.168.44.129"，说明挂载到 Spring Cloud 注册中心
 spring:
   application:
     name: user-dubbo-provide-service
-  zipkin:
-    base-url: http://127.0.0.1:9411/ #zipkin server的请求地址
-    discoveryClientEnabled: false #让nacos把它当成一个URL，而不要当做服务名
-    sleuth:
-      sampler:
-        probability: 1.0 #采样的百分比
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-    sentinel:
-      transport:
-        dashboard: localhost:7070 # 指定控制台服务的地址
-        port: 9999 #跟控制台交流的端口,随意指定一个未使用的端口即可
-      eager: true
-  main:
-    allow-bean-definition-overriding: true
+  # # zipkin:
+  #   base-url: http://127.0.0.1:9411/ #zipkin server的请求地址
+  #   discoveryClientEnabled: false #让nacos把它当成一个URL，而不要当做服务名
+  #   sleuth:#
+  #     sampler:
+  #       probability: 1.0 #采样的百分比
+  # cloud:
+  #   nacos:
+  #     discovery:
+  #       server-addr: localhost:8848
+  #   sentinel:
+  #     transport:
+  #       dashboard: localhost:7070 # 指定控制台服务的地址
+  #       port: 9999 #跟控制台交流的端口,随意指定一个未使用的端口即可
+  #     eager: true
+  #main:
+  #  allow-bean-definition-overriding: true
   datasource:
     #type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,7 +36,7 @@ spring:
     password: 123456
     druid:
       initial-size: 5 #连接池初始化大小
-      min-idle: 10 #最小空闲连接数
+      min-idle: 10 #最小空闲连接数#
       max-active: 20 #最大连接数
       web-stat-filter:
         exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据

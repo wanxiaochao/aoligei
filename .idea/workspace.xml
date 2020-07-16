@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c163c9b-1cce-4505-aae4-4862932cb8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/java/com/aoligei/mybatis_generate/MybatisGenerateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/java/com/aoligei/mybatis_generate/generator/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/java/com/aoligei/mybatis_generate/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_generate/src/test/java/com/aoligei/mybatis_generate/MybatisGenerateApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/src/main/java/com/aoligei/sub_data_table/SubDataTableApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/src/test/java/com/aoligei/sub_data_table/SubDataTableApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/SpringSecurityJwtRedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/exception/JWTAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/exception/JWTAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/exception/TokenIsExpiredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/filter/JWTAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/model/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/utils/JwtTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis/utils/SUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/test/java/com/aoligei/springsecurity_jwt_redis/SpringSecurityJwtRedisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/src/main/java/com/aoligei/sub_data_table/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub_data_table_learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/alg/product/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub_data_table_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub_data_table_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub_data_table_learn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/src/test/java/com/alg/userprovide/UserProvideApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/src/test/java/com/alg/userprovide/UserProvideApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-dubbo/user-provide/target/test-classes/com/alg/userprovide/UserProvideApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-dubbo/user-provide/target/test-classes/com/alg/userprovide/UserProvideApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_generate/src/main/java/com/aoligei/mybatis_generate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security_jwt_redis_learn/src/main/java/com/aoligei/springsecurity_jwt_redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -92,21 +102,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aoligei.springsecurity_jwt_redis.model" />
+      <recent name="com.aoligei.springsecurity_jwt_redis.dao" />
       <recent name="com.alg.redisspringbootstarter.template" />
       <recent name="com.alg.redisspringbootstarter.constant" />
       <recent name="com.alg.redisspringbootstarter.properties" />
-      <recent name="com.alg.common.utils" />
-      <recent name="com.alg.seataspringbootstarter.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\self_project\aoligei\spring-security_jwt_redis_learn\src\main\java\com\aoligei\springsecurity_jwt_redis" />
       <recent name="G:\self_project\aoligei\mybatis_generate\src\main\java\com\aoligei\mybatis_generate" />
       <recent name="G:\self_project\aoligei\mybatis_generate\src\main\resources" />
       <recent name="G:\self_project\aoligei\starter\redis-spring-boot-starter\src\main\resources" />
       <recent name="G:\self_project\aoligei\starter\redis-spring-boot-starter\src\main\java\com\alg\redisspringbootstarter" />
-      <recent name="G:\self_project\aoligei\starter\seata-spring-boot-starter\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Spring Boot.SpringSecurityJwtRedisApplication">
     <configuration name="CglibDynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.cglib.CglibDynamicProxyTest" />
       <module name="dynamic_proxy_learn" />
@@ -133,43 +143,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKDynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.jdk.JDKDynamicProxyTest" />
-      <module name="dynamic_proxy_learn" />
+    <configuration name="SpringSecurityJwtRedisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-security_jwt_redis_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aoligei.dynamic_proxy_learn.jdk.*" />
+          <option name="PATTERN" value="com.aoligei.springsecurity_jwt_redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aoligei.dynamic_proxy_learn.demo.StaticProxyTest" />
-      <module name="dynamic_proxy_learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aoligei.dynamic_proxy_learn.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EsLearnApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="es_learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aoligei.es_learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aoligei.es_learn" />
-      <option name="MAIN_CLASS_NAME" value="com.aoligei.es_learn.EsLearnApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.aoligei.springsecurity_jwt_redis" />
+      <option name="MAIN_CLASS_NAME" value="com.aoligei.springsecurity_jwt_redis.SpringSecurityJwtRedisApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alg.userprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alg.userprovide" />
+      <option name="MAIN_CLASS_NAME" value="com.alg.userprovide.UserProvideApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplicationTests.contextLoads1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alg.userprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alg.userprovide" />
+      <option name="MAIN_CLASS_NAME" value="com.alg.userprovide.UserProvideApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,6 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringSecurityJwtRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security_jwt_redis_learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoligei.springsecurity_jwt_redis.SpringSecurityJwtRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubDataTableApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sub_data_table_learn" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoligei.sub_data_table.SubDataTableApplication" />
@@ -296,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringSecurityJwtRedisApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.UserProvideApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.UserProvideApplicationTests.contextLoads1" />
         <item itemvalue="Application.Generator" />
         <item itemvalue="Application.CglibDynamicProxyTest" />
-        <item itemvalue="Application.JDKDynamicProxyTest" />
-        <item itemvalue="Application.StaticProxyTest" />
-        <item itemvalue="JUnit.EsLearnApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +350,10 @@
       <workItem from="1592278910521" duration="2202000" />
       <workItem from="1592452307598" duration="18000" />
       <workItem from="1592459806095" duration="689000" />
-      <workItem from="1592531550576" duration="8130000" />
+      <workItem from="1592531550576" duration="12588000" />
+      <workItem from="1593745980938" duration="4741000" />
+      <workItem from="1594346471472" duration="5472000" />
+      <workItem from="1594864295332" duration="11160000" />
     </task>
     <servers />
   </component>
@@ -342,10 +368,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1591346936664" />
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1592533335493">
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1594870836805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592533335493" />
+    <state x="765" y="225" width="839" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594870836805" />
     <state x="881" y="434" width="587" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592533773648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -358,26 +384,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="471" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1590988680716" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1592549715132">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1594870154365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592549715132" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1592550978736">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594870154365" />
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1594872737079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592550978736" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1592550978736">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594872737079" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1594872737079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592550978736" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1592550978736">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594872737079" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1594872737078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592550978736" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1592550978736">
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594872737078" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1594872737079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592550978736" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594872737079" />
     <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1592279864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -410,26 +436,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591349524938" />
-    <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1592551037281">
+    <state x="602" y="349" key="Maven.ArtifactSearchDialog" timestamp="1592555129680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="602" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592551037281" />
-    <state x="526" y="293" key="SettingsEditor" timestamp="1592280391042">
+    <state x="602" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592555129680" />
+    <state x="526" y="293" key="SettingsEditor" timestamp="1592556173377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="526" y="293" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592280391042" />
+    <state x="526" y="293" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592556173377" />
     <state width="510" height="360" key="documentation.popup.size" timestamp="1591151868211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="360" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1591151868211" />
-    <state x="662" y="252" width="686" height="536" key="find.popup" timestamp="1592548849109">
+    <state x="662" y="252" width="686" height="536" key="find.popup" timestamp="1594866176057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="686" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592548849109" />
-    <state x="504" y="165" key="new project wizard" timestamp="1592549878255">
+    <state x="662" y="252" width="686" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594866176057" />
+    <state x="504" y="165" key="new project wizard" timestamp="1594866032298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="165" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592549878255" />
+    <state x="504" y="165" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594866032298" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591076688143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

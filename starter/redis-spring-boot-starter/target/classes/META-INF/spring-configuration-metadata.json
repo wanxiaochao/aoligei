@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis.custom",
+      "type": "com.alg.redisspringbootstarter.properties.CacheManagerProperties",
+      "sourceType": "com.alg.redisspringbootstarter.properties.CacheManagerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.custom.configs",
+      "type": "java.util.List<com.alg.redisspringbootstarter.properties.CacheManagerProperties$CacheConfig>",
+      "sourceType": "com.alg.redisspringbootstarter.properties.CacheManagerProperties"
+    }
+  ],
+  "hints": []
+}

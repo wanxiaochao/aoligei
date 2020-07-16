@@ -1,0 +1,35 @@
+server:
+  port: 8945
+spring:
+  application:
+    name: sjr
+  redis:
+    database: 0
+    host: 121.89.210.180
+    port: 6379
+    password: null
+    timeout: 0
+    jedis:
+      pool:
+        max-wait: -1
+        max-active: 800
+        max-idle: 800
+        min-idle: 0
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://123.57.216.16:3306/gogs?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      initial-size: 5 #连接池初始化大小
+      min-idle: 10 #最小空闲连接数#
+      max-active: 20 #最大连接数
+      web-stat-filter:
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据
+      stat-view-servlet: #访问监控网页的登录用户名和密码
+        login-username: druid
+        login-password: druid
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

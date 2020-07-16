@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/dynamic_proxy_learn/pom.xml" />
         <option value="$PROJECT_DIR$/sub_data_table_learn/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_generate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security_jwt_redis/pom.xml" />
       </list>
     </option>
   </component>
