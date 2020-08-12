@@ -8,23 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mqconsumer" />
         <module name="user-dubbo-api" />
+        <module name="es_learn" />
         <module name="mybatis_generate" />
         <module name="user-provide" />
         <module name="gateway" />
         <module name="sub_data_table_learn" />
         <module name="product" />
-        <module name="user-api" />
         <module name="starter" />
         <module name="spring-security_jwt_redis_learn" />
         <module name="order" />
         <module name="dynamic_proxy_learn" />
         <module name="seata" />
-        <module name="common" />
+        <module name="seata-spring-boot-starter" />
         <module name="user-dubbo" />
         <module name="user-interface" />
         <module name="redis-spring-boot-starter" />
-        <module name="es_learn" />
-        <module name="seata-spring-boot-starter" />
+        <module name="user-api" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
